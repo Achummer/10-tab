@@ -1,0 +1,47 @@
+html{
+   background-color: rgb(173, 84, 241);
+}
+code{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.site-header{
+    background-color:aquamarine;
+    padding: 20px 20px 0 20px;
+    border-radius: 20px 20px 0 0;
+}
+.site-main{
+    background-color:rgb(160, 211, 250);
+    padding: 20px;
+    border-radius:  0px 0px 20px 20px ;
+}
+.site-links{
+list-style: none;
+padding:0;
+margin: 0;
+display: flex;
+gap: 5px;
+justify-content: space-between;
+}
+.site-links li{
+    flex: 1 1 0;
+}
+.site-link{
+    background-color:rgb(36, 131, 248);
+    padding: 16px;
+    display: block;
+    color:rgb(160, 208, 250);
+    text-decoration: none;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+}
+.current-page{
+    background-color: rgb(160, 208, 250);
+    color: rgb(36, 131, 248);
+}
+.site-link:hover{
+    background-color:rgb(12, 95, 95);
+}
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
